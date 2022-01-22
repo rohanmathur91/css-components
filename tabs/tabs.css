@@ -1,0 +1,49 @@
+.center-conatiner {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+.tabs {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	background-color: #171717;
+	padding: 0.5rem;
+}
+
+.btn {
+	border: none;
+	background: none;
+	outline: none;
+}
+
+.tab__btn {
+	color: #fafafa;
+	padding: 0.5rem 1rem;
+}
+
+.tab__btn:hover {
+	background-color: #404040;
+}
+.active-1 {
+	background-color: #262626;
+}
+
+.active-2 {
+	background-color: #262626;
+}
+
+.active-3 {
+	border-bottom: 2px solid #1d4ed8;
+}
+
+.underline:hover {
+	border-bottom: 2px solid #1d4ed8;
+}
+
+.rounded {
+	border-radius: 0.5rem;
+}

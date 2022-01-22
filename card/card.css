@@ -1,0 +1,113 @@
+.mb-less {
+	margin-bottom: 0.5rem;
+}
+
+.mb-normal {
+	margin-bottom: 1rem;
+}
+
+.gray {
+	color: var(--primary-gray-color);
+}
+
+.vertical {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 20rem;
+}
+
+.card {
+	box-shadow: 0px 0px 7px 0px rgb(158, 155, 155);
+	border-radius: 4px;
+}
+
+.card__header:hover {
+	background-color: var(--link-hover-color);
+}
+
+.card__main-img {
+	max-inline-size: 100%;
+	block-size: auto;
+	object-fit: cover;
+	border-radius: 4px;
+}
+
+.card__main-header {
+	padding: 0.8rem 1rem;
+}
+
+.card__main-author {
+	padding: 0 1rem;
+}
+
+.card__description {
+	padding: 0.5rem 1rem;
+}
+
+.card__footer {
+	padding: 0.5rem;
+	display: flex;
+}
+
+/* footer */
+.card__btn {
+	color: var(--link-color);
+	font-weight: bold;
+	padding: 0.5rem;
+	font-size: 1rem;
+}
+
+.card__btn:hover {
+	background-color: var(--link-hover-color);
+	border-radius: 0.5rem;
+}
+
+/* icons */
+.card__footer-right {
+	margin-left: auto;
+	font-size: 1rem;
+}
+
+.icon:hover {
+	background-color: var(--primary-light-gray-color);
+}
+
+/* text overlay */
+.overlay-parent {
+	position: relative;
+}
+
+.overlay {
+	position: absolute;
+	bottom: 4.5rem;
+}
+
+.white {
+	color: white;
+}
+
+/* header at top */
+.reverse {
+	display: flex;
+	flex-direction: column;
+}
+
+.inc-order {
+	order: 2;
+}
+
+/* only icons */
+.hide {
+	display: none;
+}
+
+/* horizontal */
+.horizontal {
+	display: flex;
+	align-items: flex-end;
+}
+
+.horizontal img {
+	width: 6rem;
+	height: 6rem;
+}

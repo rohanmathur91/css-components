@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--white-color: #fff;
+	--green-color: #22c55e;
+
+	/* cards */
+	--link-color: #4338ca;
+	--link-hover-color: #e0e7ff;
+	--primary-gray-color: #6b7280;
+	--primary-light-gray-color: #e2e8f0;
+
+	/* chips */
+	--primary-chip: #e2e8f0;
+	--primary-hover: #f1f5f9;
+	--primary-chip-dark: #94a3b8;
+
+	/* header */
+	--header-bg-color: #18181b;
+	--header-text-color: #fafafa;
+	--header-hover: #3f3f46;
+
+	/* badge */
+	--badge-color: #dc2626;
+
+	/* snackbar */
+	--snackbar-bg-color: #3f3f46;
+	--snackbar-text-color: #fafafa;
+}
+
+body {
+	font-family: "Archivo", sans-serif;
+}
+
+.container {
+	padding: 1rem;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 1rem;
+}
+
+.active {
+	background-color: var(--header-hover);
+}
+
+.btn {
+	border: none;
+	background: inherit;
+	font-family: inherit;
+	padding: 0.5rem;
+}
+
+.no-bullet {
+	list-style: none;
+}
+
+.link {
+	color: inherit;
+	text-decoration: none;
+}
+
+.gray {
+	color: var(--primary-gray-color);
+}
+
+.icon {
+	width: 2.4rem;
+	height: 2.4rem;
+	font-size: 1.2rem;
+	border-radius: 50%;
+}

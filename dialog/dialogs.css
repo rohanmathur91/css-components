@@ -1,0 +1,79 @@
+.dialog {
+	visibility: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	width: 100vw;
+	background-color: rgba(0, 0, 0, 0.267);
+	z-index: 1;
+	position: absolute;
+	top: 0;
+}
+
+.dialog__main {
+	width: 25rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: var(--snackbar-bg-color);
+	color: var(--snackbar-text-color);
+	border-radius: 0.5rem;
+	padding: 1rem 0;
+}
+
+.dialog__header {
+	padding: 0.5rem;
+	border-bottom: 1px solid var(--header-text-color);
+}
+
+.dialog__options {
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0.5rem;
+}
+
+.dialog__item {
+	border: 1px solid var(--snackbar-text-color);
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 63%;
+	padding: 0.5rem;
+	margin-bottom: 0.5rem;
+	border-radius: 0.5rem;
+}
+
+.dialog__item-image {
+	width: 2rem;
+	height: 2rem;
+	border-radius: 50%;
+	margin-right: 1rem;
+}
+
+.dialog__footer {
+	margin-top: 0.5rem;
+}
+
+.dialog__btn {
+	color: #d4d4d8;
+	font-size: 1rem;
+	padding: 0.5rem 1rem;
+}
+
+.dialog__item:hover,
+.dialog__btn:hover {
+	background-color: #52525b;
+	border-radius: 0.5rem;
+}
+
+.open {
+	border: none;
+	background-color: var(--snackbar-bg-color);
+	color: var(--snackbar-text-color);
+	padding: 1rem;
+	font-family: inherit;
+	border-radius: 0.5rem;
+}

@@ -1,0 +1,31 @@
+.icon {
+	font-size: 2rem;
+	position: relative;
+	margin: 1rem;
+}
+
+.badge {
+	font-size: 0.8rem;
+	position: absolute;
+	left: 1.4rem;
+	bottom: 1.6rem;
+	color: var(--white-color);
+	background: var(--badge-color);
+	width: 1.5rem;
+	height: 1.5rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+}
+
+/* green */
+.green-badge {
+	background-color: var(--green-color);
+}
+
+/* small badges without numbers */
+.small {
+	width: 0.8rem;
+	height: 0.8rem;
+}

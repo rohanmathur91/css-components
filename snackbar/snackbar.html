@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="./snackbar.css" />
+    <title>Snackbar</title>
+</head>
+
+<body>
+    <!-- simple -->
+    <div class="snackbar top-left">
+        <p class="snackbar__msg">
+            Can't send photo. Retry in 5 seconds.
+        </p>
+        <button class="snackbar__retry btn">Retry</button>
+        <button class="snackbar__cancel icon btn">
+            <i class="fa fa-close"></i>
+        </button>
+    </div>
+
+    <!-- success -->
+    <div class="snackbar success top-right">
+        <p class="snackbar__msg ">
+            This is a success snackbar!
+        </p>
+        <button class="snackbar__cancel icon success-cancel btn">
+            <i class="fa fa-close"></i>
+        </button>
+    </div>
+
+    <!-- information -->
+    <div class="snackbar information bottom-left">
+        <p class="snackbar__msg">
+            This is a information snackbar!
+        </p>
+        <button class="snackbar__cancel icon information-cancel btn">
+            <i class="fa fa-close"></i>
+        </button>
+    </div>
+
+    <!-- warning -->
+    <div class="snackbar warning bottom-right">
+        <p class="snackbar__msg">
+            This is a warning snackbar!
+        </p>
+        <button class="snackbar__cancel icon warning-cancel btn">
+            <i class="fa fa-close"></i>
+        </button>
+    </div>
+</body>
+
+</html>
