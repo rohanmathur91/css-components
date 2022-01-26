@@ -28,7 +28,6 @@
 .card__main-img {
 	max-inline-size: 100%;
 	block-size: auto;
-	object-fit: cover;
 	border-radius: 4px;
 }
 

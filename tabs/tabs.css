@@ -8,9 +8,8 @@
 
 .tabs {
 	display: flex;
-	flex-wrap: wrap;
 	align-items: center;
-	background-color: #171717;
+	background-color: var(--tabs-bg-color);
 	padding: 0.5rem;
 }
 
@@ -21,29 +20,44 @@
 }
 
 .tab__btn {
-	color: #fafafa;
+	color: var(--tabs-text-color);
 	padding: 0.5rem 1rem;
 }
 
 .tab__btn:hover {
-	background-color: #404040;
+	background-color: var(--tabs-hover-color);
 }
 .active-1 {
-	background-color: #262626;
+	background-color: var(--tabs-active-black-color);
 }
 
 .active-2 {
-	background-color: #262626;
+	background-color: var(--tabs-active-black-color);
 }
 
 .active-3 {
-	border-bottom: 2px solid #1d4ed8;
+	border-bottom: 2px solid var(--tabs-active-blue-color);
 }
 
 .underline:hover {
-	border-bottom: 2px solid #1d4ed8;
+	border-bottom: 2px solid var(--tabs-active-blue-color);
 }
 
 .rounded {
 	border-radius: 0.5rem;
+}
+
+/* tab icon */
+.tab-icon {
+	font-size: 1rem;
+	margin-right: 0.5rem;
+}
+
+/* scrollable */
+.hide-overflow {
+	width: 30rem;
+	overflow: auto;
+}
+.hide-overflow::-webkit-scrollbar {
+	display: none;
 }

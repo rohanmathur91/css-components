@@ -36,7 +36,6 @@
 }
 
 .dialog__item {
-	border: 1px solid var(--snackbar-text-color);
 	display: flex;
 	align-items: center;
 	flex-wrap: wrap;

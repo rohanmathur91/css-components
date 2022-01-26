@@ -32,6 +32,13 @@
 	/* snackbar */
 	--snackbar-bg-color: #3f3f46;
 	--snackbar-text-color: #fafafa;
+
+	/* tabs */
+	--tabs-bg-color: #171717;
+	--tabs-text-color: #fafafa;
+	--tabs-hover-color: #404040;
+	--tabs-active-black-color: #262626;
+	--tabs-active-blue-color: #1d4ed8;
 }
 
 body {
@@ -76,4 +83,8 @@ body {
 	height: 2.4rem;
 	font-size: 1.2rem;
 	border-radius: 50%;
+}
+
+.mr {
+	margin-right: 0.5rem;
 }

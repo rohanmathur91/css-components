@@ -76,3 +76,9 @@
 	bottom: 1rem;
 	right: 1rem;
 }
+
+.bottom-center {
+	left: 50%;
+	bottom: 1rem;
+	transform: translate(-50%, -15%);
+}
