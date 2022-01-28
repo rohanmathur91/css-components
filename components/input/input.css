@@ -1,0 +1,8 @@
+.resize-none {
+	resize: none;
+}
+
+.error-msg {
+	border: 1px solid var(--color-red-800);
+	background-color: var(--color-red-100);
+}
